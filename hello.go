@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
+import "stringutils"
 
 func main() {
-    fmt.Printf("Hello world\n")
+    fmt.Printf(stringutil.Reverse("Hello, World\n"))
 }
